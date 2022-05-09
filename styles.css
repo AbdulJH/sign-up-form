@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(30, 109, 83);
+  background-color: rgb(119, 67, 119)
 }
 
 .main-background {
@@ -8,9 +8,12 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 260px;
-  background-color: wheat;
+  background-color: #23515c;
   width: fit-content;
   border-radius: 5px;
+  border-style: solid;
+  padding-right: 25px;
+
 }
 
 .group-form {
@@ -22,25 +25,56 @@ body {
 .test-group {
   display: flex;
   flex-direction: column;
+  margin-bottom: 22px;
    
 }
 .user-typed {
   display: flex;
+  margin-top: 10px;
   flex-direction: column;
+  width: 200px;
+  padding: 3px;
 }
 
 .input-text {
-  color: black;
-  font-size: 20px;
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px;
 }
 
 
+.top-text {
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 50px;
+  margin-left: 20px;
 
+}
+
+.button {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  align-items: center;
+}
+.button input {
+  height: 100%;
+  width: 200px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(39, 37, 37);
+  border-radius: 5px;
+}
 
 img {
   padding-top: 25px;
   padding-left: 25px;
   padding-bottom: 25px;
-  padding-right: 25px;
+  padding-right: 5px;
   border-radius: 3px;
+
 }

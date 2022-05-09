@@ -11,39 +11,34 @@
   <div class="main-background">
     <img src="/images/test.gif" alt="">
 
-    <!-- <div class="random-text">
-      <h3>This is not a real online service! You know you need something<br>
-      like this in your life to help you realize your deepest dreams.<br> Sign up now to get started</h3>
-    </div> -->
-
 
     <div class="group-form">
       <form action="#">
         <div class="top-text">
-          <h3>This is not a real online service! You know you need something<br>
-            like this in your life to help you realize your deepest dreams.<br> Sign up now to get started</h3>
+          <h3>Sign up now to let your adventure begin!</h3>
         </div>
 
         <div class="test-group">
 
       <div class="input-text">
-       <label for="first_name">First Name:</label>
-       <input class="user-typed" type="text" name="first_name" id="first_name" placeholder="" required>
+       <label class ="final-class"for="first_name">First Name*</label>
+       <input class="user-typed" type="text" name="first_name" id="first_name" placeholder="Name" required>
+      </div>
+     
+
+      <div class="input-text">
+        <label for="user_email">Email Address*</label>
+        <input class="user-typed" type="email" name="email" id="user_email" placeholder="Email@gmail.com" required>
       </div>
 
       <div class="input-text">
-        <label for="user_email">Email Address:</label>
-        <input class="user-typed" type="email" name="email" id="user_email" placeholder="" required>
+        <label for="user_password">Password*</label>
+        <input class="user-typed" type="password" name="user_password" id="user_password" placeholder="5-15 characters*" minlength="5" maxlength="15"required>
       </div>
 
       <div class="input-text">
-        <label for="user_password">Password:</label>
-        <input class="user-typed" type="password" name="user_password" id="user_password" placeholder="" required>
-      </div>
-
-      <div class="input-text">
-        <label for="user_confirm_password">Confirm Password:</label>
-        <input class="user-typed" type="password" name="user_confirm_password" id="user_confirm_password" placeholder="" required>
+        <label for="user_confirm_password">Confirm Password*</label>
+        <input class="user-typed" type="password" name="user_confirm_password" id="user_confirm_password" placeholder="5-15 characters*" required>
       </div>
 
       <div class="button">
